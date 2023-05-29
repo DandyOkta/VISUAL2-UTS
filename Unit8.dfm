@@ -1,6 +1,6 @@
 object FormLatihan: TFormLatihan
-  Left = 180
-  Top = 132
+  Left = 153
+  Top = 140
   Width = 962
   Height = 576
   Caption = 'FormLatihan'

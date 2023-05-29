@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, unit2, Menus, Unit3, Unit4, Unit5, Unit6, Unit7, Unit8;
+  Dialogs, unit2, Menus, Unit3, Unit4, Unit5, Unit6, Unit7, Unit8, Unit10, Unit11;
 
 type
   TForm1 = class(TForm)
@@ -19,6 +19,8 @@ type
     GRAFIKSTRINGGRID1: TMenuItem;
     GRAFIKSTRINGGRIDREVISI1: TMenuItem;
     LAT1: TMenuItem;
+    GRAFIKPASIEN1: TMenuItem;
+    GRAFIKMAHASISWA1: TMenuItem;
     procedure LATIHAN11Click(Sender: TObject);
     procedure LATIHAN21Click(Sender: TObject);
     procedure KONDISIONAL11Click(Sender: TObject);
@@ -26,6 +28,8 @@ type
     procedure GRAFIKSTRINGGRID1Click(Sender: TObject);
     procedure GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
     procedure LAT1Click(Sender: TObject);
+    procedure GRAFIKPASIEN1Click(Sender: TObject);
+    procedure GRAFIKMAHASISWA1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -72,6 +76,16 @@ end;
 procedure TForm1.LAT1Click(Sender: TObject);
 begin
 FormLatihan.Show;
+end;
+
+procedure TForm1.GRAFIKPASIEN1Click(Sender: TObject);
+begin
+Form10.Show
+end;
+
+procedure TForm1.GRAFIKMAHASISWA1Click(Sender: TObject);
+begin
+Form11.Show;
 end;
 
 end.

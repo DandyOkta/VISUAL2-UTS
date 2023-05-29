@@ -10,7 +10,9 @@ uses
   Unit6 in 'Unit6.pas' {FormGrafik},
   Unit7 in 'Unit7.pas' {FormRevisi},
   Unit8 in 'Unit8.pas' {FormLatihan},
-  Unit9 in 'Unit9.pas' {FormTambahdata};
+  Unit9 in 'Unit9.pas' {FormTambahdata},
+  Unit10 in 'Unit10.pas' {Form10},
+  Unit11 in 'Unit11.pas' {Form11};
 
 {$R *.res}
 
@@ -25,5 +27,7 @@ begin
   Application.CreateForm(TFormRevisi, FormRevisi);
   Application.CreateForm(TFormLatihan, FormLatihan);
   Application.CreateForm(TFormTambahdata, FormTambahdata);
+  Application.CreateForm(TForm10, Form10);
+  Application.CreateForm(TForm11, Form11);
   Application.Run;
 end.
